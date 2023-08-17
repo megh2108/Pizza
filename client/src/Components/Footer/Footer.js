@@ -28,8 +28,8 @@ function Footer(){
           <div>
             <h4>Reservations</h4>
             <p>
-              <strong>Phone:</strong> +91 6352764092<br />
-              <strong>Email:</strong> meghshah0410@gmail.com<br />
+              <strong>Phone:</strong> +91 77780 43066<br />
+              <strong>Email:</strong> info@chessypizza.com<br />
             </p>
           </div>
         </div>

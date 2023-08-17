@@ -37,7 +37,7 @@ function Contact() {
                                 <i className="icon bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h3>Email Us</h3>
-                                    <p>meghshah0410@gmail.com</p>
+                                    <p>info@chessypizza.com</p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ function Contact() {
                                 <i className="icon bi bi-telephone flex-shrink-0"></i>
                                 <div>
                                     <h3>Call Us</h3>
-                                    <p> +91 6352764092</p>
+                                    <p> +91 77780 43066</p>
                                 </div>
                             </div>
                         </div>
