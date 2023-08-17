@@ -1,6 +1,7 @@
 import React, { createContext, useReducer } from 'react';
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
+import Contact from './Components/Contact/Contact';
 import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login/Login";
 import Signup from "./Components/Signup/Signup";
@@ -45,6 +46,7 @@ function App() {
               element={<Menu_Dummy menuData={pizzaMenu} />} 
             />
             <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
             <Route path="/Cart" element={<Cart />} />
             <Route path="/item" element={<Itemadd />} />
             <Route path="/Dashboard" element={<Dashboard />} />
