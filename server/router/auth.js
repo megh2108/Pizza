@@ -334,6 +334,12 @@ router.get('/pizza',async (req, res) => {
     console.log(`Hello my About`);
     res.send(req.rootUser);
   });
+
+  router.get('/logout', (req, res) => {
+    console.log(`Hello my Logout`);
+    res.clearCookie('jwtoken', {path: '/'});    
+    res.status(200).send("User Logout.");
+  });
 //   router.get('/carts', Authenticate, (req, res) => {
 //     console.log(`Hello my About`);
 //     res.send(req.rootUser);
