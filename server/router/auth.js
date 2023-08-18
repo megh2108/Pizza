@@ -80,6 +80,7 @@ router.post('/signin', async (req, res) => {
 
 router.post('/sign', async (req, res) => {
     const { name, email, phone, password, cpassword, type, secretKey, shopID } = req.body;
+    console.log(req.body);
 
     // Validate input fields
     if (!name || !email || !phone || !password || !cpassword || !type) {

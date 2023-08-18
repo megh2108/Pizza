@@ -40,11 +40,11 @@ function App() {
             <Route path="/Login" element={<Login />} />
             <Route path="/Signup" element={<Signup />} />
             {/* <Route path="/Menu" element={<MenuList />} /> */}
-            {/* <Route path="/Menu" element={<Menu />} /> */}
-            <Route
+            <Route path="/Menu" element={<Menu />} />
+            {/* <Route
               path="/Menu"
               element={<Menu_Dummy menuData={pizzaMenu} />} 
-            />
+            /> */}
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Cart" element={<Cart />} />

@@ -16,8 +16,8 @@ function Signup() {
     const [password, setPassword] = useState('');
     const [cpassword, setCpassword] = useState('');
     const [type, setType] = useState('');
-    const [secretKey, setSecretkey] = useState('');
     const [shopID, setShopID] = useState('');
+    const [secretKey, setSecretkey] = useState('');
 
     // let name, value;
     // const handleInputs = (e) => {
@@ -40,7 +40,7 @@ function Signup() {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name, email, phone, password, cpassword, type, secretKey, shopID
+                name, email, phone, password, cpassword, type,  shopID, secretKey
 
 
             }),
@@ -121,20 +121,20 @@ function Signup() {
                                             <input
                                                 type="text"
                                                 className="form-control"
-                                                name="secretKey"
-                                                placeholder="Enter Secret Key"
-                                                required="" autofocus
-                                                value={secretKey}
-                                                onChange={(e) => setSecretkey(e.target.value)}
-                                            />
-                                            <input
-                                                type="text"
-                                                className="form-control"
                                                 name="shopID"
                                                 placeholder="Enter Shop ID"
                                                 required="" autofocus
                                                 value={shopID}
                                                 onChange={(e) => setShopID(e.target.value)}
+                                            />
+                                            <input
+                                                type="text"
+                                                className="form-control"
+                                                name="secretKey"
+                                                placeholder="Enter Secret Key"
+                                                required="" autofocus
+                                                value={secretKey}
+                                                onChange={(e) => setSecretkey(e.target.value)}
                                             />
                                         </div>
                                     ) : null}

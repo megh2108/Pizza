@@ -74,7 +74,9 @@
   }
   
   .menu .tab-content .menu-item .menu-img {
-    padding: 0 60px;
+    /* padding: 0 60px; */
+    height: 305px;
+    width: 305px;
     margin-bottom: 15px;
   }
   
