@@ -31,6 +31,15 @@ function Signup() {
     const PostData = async (e) => {
         e.preventDefault();
 
+        const requestBody = {
+            name, email, phone, password, cpassword, type
+        };
+    
+        if (type === "admin") {
+            requestBody.shopID = shopID;
+            requestBody.secretKey = secretKey;
+        }
+
         // const { name, email, phone, password, cpassword, type, secretKey, shopID } = user;
 
         // const response = await fetch("/signin", {
@@ -39,11 +48,12 @@ function Signup() {
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({
-                name, email, phone, password, cpassword, type
+            body: JSON.stringify(requestBody),
 
+            // body: JSON.stringify({
+            //     name, email, phone, password, cpassword, type
 
-            }),
+            // }),
 
         });
 
@@ -114,7 +124,7 @@ function Signup() {
                                             onChange={(e) => setType(e.target.value)}
                                         />
                                     </div>
-                                    {type == "admin" ? (
+                                    {type === "admin" ? (
                                         <div>
                                             <input
                                                 type="text"
