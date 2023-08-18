@@ -81,56 +81,64 @@ const Menu = () => {
 
               <div className="row gy-5">
                 {/* {userData.map((pizza, index) => ( */}
-                  {/* <div key={index} className="col-lg-4 menu-item"> */}
-                  <div  className="col-lg-4 menu-item">
-                    {/* Assuming your image URL is in pizza.imageUrl */}
-                    <a href="assets/img/menu/menu-item-1.png" className="glightbox">
-                      <img src="assets/img/menu/menu-item-1.png" className="menu-img img-fluid" alt="" />
-                    </a>
-                    {/* <h4>{pizza.name}</h4> */}
-                    <h4>Vegiterian Pizza</h4>
-                    <p className="ingredients">
-                      {/* {pizza.description} */}
-                      This is 
-                    </p>
-                    {/* Assuming your price field is in pizza.price */}
-                    <p className="price">
-                      $50.00
-                    </p>
-                  </div>
-                  <div  className="col-lg-4 menu-item">
-                    {/* Assuming your image URL is in pizza.imageUrl */}
-                    <a href="assets/img/menu/menu-item-2.png" className="glightbox">
-                      <img src="assets/img/menu/menu-item-2.png" className="menu-img img-fluid" alt="" />
-                    </a>
-                    {/* <h4>{pizza.name}</h4> */}
-                    <h4>Margherita Pizza</h4>
-                    <p className="ingredients">
-                      {/* {pizza.description} */}
-                      This is 
-                    </p>
-                    {/* Assuming your price field is in pizza.price */}
-                    <p className="price">
-                      $100.00
-                    </p>
-                  </div>
-                  <div  className="col-lg-4 menu-item">
-                    {/* Assuming your image URL is in pizza.imageUrl */}
-                    <a href="assets/img/menu/menu-item-3.png" className="glightbox">
-                      <img src="assets/img/menu/menu-item-3.png" className="menu-img img-fluid" alt="" />
-                    </a>
-                    {/* <h4>{pizza.name}</h4> */}
-                    <h4>Mexican Pizza</h4>
-                    <p className="ingredients">
-                      {/* {pizza.description} */}
-                      This is mexican
-                    </p>
-                    {/* Assuming your price field is in pizza.price */}
-                    <p className="price">
-                      $150.00
-                    </p>
-                  </div>
-                {/* ))} */}
+                {/* <div key={index} className="col-lg-4 menu-item"> */}
+                <div className="col-lg-4 menu-item">
+                  {/* Assuming your image URL is in pizza.imageUrl */}
+                  <a href="assets/img/menu/menu-item-1.png" className="glightbox">
+                    <img src="assets/img/menu/menu-item-1.png" className="menu-img img-fluid" alt="" />
+                  </a>
+                  {/* <h4>{pizza.name}</h4> */}
+                  <h4>Vegiterian Pizza</h4>
+                  <p className="description">
+                    {/* {pizza.description} */}
+                    This is Vegiterian Pizza
+                  </p>
+                  <p className="price">
+                    $50.00
+                  </p>
+                </div>
+                <div className="col-lg-4 menu-item">
+                  {/* Assuming your image URL is in pizza.imageUrl */}
+                  <a href="assets/img/menu/menu-item-2.png" className="glightbox">
+                    <img src="assets/img/menu/menu-item-2.png" className="menu-img img-fluid" alt="" />
+                  </a>
+                  {/* <h4>{pizza.name}</h4> */}
+                  <h4>Margherita Pizza</h4>
+                  <p className="ingredients">
+                    {/* {pizza.description} */}
+                    This is
+                  </p>
+                  {/* Assuming your price field is in pizza.price */}
+                  <p className="price">
+                    $100.00
+                  </p>
+                </div>
+                <div className="col-lg-4 menu-item">
+                  {/* Assuming your image URL is in pizza.imageUrl */}
+                  <a href="assets/img/menu/menu-item-3.png" className="glightbox">
+                    <img src="assets/img/menu/menu-item-3.png" className="menu-img img-fluid" alt="" />
+                  </a>
+                  {/* <h4>{pizza.name}</h4> */}
+                  <h4>Mexican Pizza</h4>
+                  <p className="ingredients">
+                    {/* {pizza.description} */}
+                    This is mexican
+                  </p>
+                  {/* Assuming your price field is in pizza.price */}
+                  <p className="price">
+                    $150.00
+                  </p>
+                </div>
+                <div className="col-lg-4 menu-item">
+                  <img src="assets/img/menu/menu-item-3.png" className="menu-img img-fluid" alt="" />
+                  <h4>Mexican Pizza</h4>
+                  <p className="description">
+                    This is mexican
+                  </p>
+                  <p className="price">
+                    $150.00
+                  </p>
+                </div>
               </div>
             </div>
 

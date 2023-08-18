@@ -89,7 +89,7 @@
     margin-bottom: 5px;
   }
   
-  .menu .tab-content .menu-item .ingredients {
+  .menu .tab-content .menu-item .description {
     font-family: var(--font-secondary);
     color: #8d8d9b;
     margin-bottom: 5px;
@@ -100,4 +100,3 @@
     font-weight: 700;
     color: var(--color-primary);
   }
-  
