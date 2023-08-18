@@ -40,7 +40,7 @@ function Signup() {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name, email, phone, password, cpassword, type,  shopID, secretKey
+                name, email, phone, password, cpassword, type
 
 
             }),
@@ -71,11 +71,9 @@ function Signup() {
 
                     <div className="workinghny-form-grid">
                         <div className="main-hotair">
-                            {/* <div className="w3l_form align-self">
-                                <div className="left_grid_info"> */}
+
                             <img src="assets/img/logo/2.png" alt="" className="img-fluid" />
-                            {/* </div>
-                            </div> */}
+
                             <div className="content-wthree">
                                 <h2>Sign Up</h2>
                                 <form method="POST">

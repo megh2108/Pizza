@@ -178,11 +178,9 @@ function Navbar() {
 
                     <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-                    {/* <!-- .navbar --> */}
 
                 </div>
             </header>
-            {/* <!-- End Header --> */}
 
 
         </>

@@ -13,8 +13,7 @@ function Contact() {
                     </div>
 
                     <div className="mb-3">
-                        {/* <iframe style={{ "border": "0", "width": "100%", "height": "350px" }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe> */}
-                        <iframe style={{ "border": "0", "width": "100%", "height": "350px" }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14738.989800343797!2d72.9544!3d22.5511314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4dbae57c57ff%3A0x2711db4fe9c17678!2sCHEESY%20PIZZA!5e0!3m2!1sen!2sin!4v1692296304629!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe style={{ "border": "0", "width": "100%", "height": "350px" }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14738.989800343797!2d72.9544!3d22.5511314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4dbae57c57ff%3A0x2711db4fe9c17678!2sCHEESY%20PIZZA!5e0!3m2!1sen!2sin!4v1692296304629!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                     <div className="row gy-4">
@@ -26,7 +25,7 @@ function Contact() {
                                     <h3>Our Address</h3>
                                     <p>Maniya ni Khad,
                                         behind Gopi Cinema Road,
-                                        near Balmandir,<br/> Vivekanand Wadi,
+                                        near Balmandir,<br /> Vivekanand Wadi,
                                         Anand, Gujarat 388001</p>
                                 </div>
                             </div>
@@ -66,7 +65,7 @@ function Contact() {
 
                     </div>
 
-                    <form action="forms/contact.php" method="post" role="form" className="php-email-form p-3 p-md-4">
+                    <form method="post" role="form" className="php-email-form p-3 p-md-4">
                         <div className="row">
                             <div className="col-xl-6 form-group">
                                 <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />

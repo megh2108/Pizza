@@ -142,10 +142,9 @@ const Menu = () => {
                 <h3>Sendwiches</h3>
               </div>
 
-              <div className="row gy-5">
+              {/* <div className="row gy-5">
                 {userData.map((pizza, index) => (
                   <div key={index} className="col-lg-4 menu-item">
-                    {/* Assuming your image URL is in pizza.imageUrl */}
                     <a href="assets/img/menu/menu-item-1.png" className="glightbox">
                       <img src="assets/img/menu/menu-item-1.png" className="menu-img img-fluid" alt="" />
                     </a>
@@ -153,13 +152,12 @@ const Menu = () => {
                     <p className="ingredients">
                       {pizza.description}
                     </p>
-                    {/* Assuming your price field is in pizza.price */}
                     <p className="price">
                       $50.00
                     </p>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
 
@@ -170,10 +168,9 @@ const Menu = () => {
                 <h3>Burgers</h3>
               </div>
 
-              <div className="row gy-5">
+              {/* <div className="row gy-5">
                 {userData.map((pizza, index) => (
                   <div key={index} className="col-lg-4 menu-item">
-                    {/* Assuming your image URL is in pizza.imageUrl */}
                     <a href="assets/img/menu/menu-item-1.png" className="glightbox">
                       <img src="assets/img/menu/menu-item-1.png" className="menu-img img-fluid" alt="" />
                     </a>
@@ -181,13 +178,12 @@ const Menu = () => {
                     <p className="ingredients">
                       {pizza.description}
                     </p>
-                    {/* Assuming your price field is in pizza.price */}
                     <p className="price">
                       $50.00
                     </p>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
           </div>
